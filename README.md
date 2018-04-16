@@ -3,6 +3,7 @@
 Reddit is a very popular American social news aggregation, web content rating, and discussion website. In this project, all data gathered from Reddit.com by building a web scraper with Python's library BeautifulSoup. With gathered data, it uses RandomForest Classifier and Logistic Regression with Grid-Search to predict the user engagement (high comment vs low comment) and use Confusion Matrix to check the accuracy of the models. 
 
 **Executive Summary | What Drives High Number of Comments on Reddit?**
+
 By Jin Park
 
 **Abstract:** This analysis sought to understand what type of features in Reddit post that will get the most engagement from the Reddit users. First, the analyst gathered all necessary data by web scraping the website Reddit.com. Additionally, the analyst looked at which features could bring the most engagement from the Reddit users by extracting four interesting words in the title, subreddits, time when the post was posted, and title length on average. The models showed that the best feature to use to determine the most engagement was subreddits. On the other hand, using other features only performed where the baseline result was 75%. Overall, models are more accurate on predicting the low comments than the high comments.
